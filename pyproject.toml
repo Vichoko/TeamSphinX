@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "teamsphinx"
+version = "0.1.0"
+description = "A lightweight Python tool to extract and analyze TeamSpeak 3 channel information."
+authors = ["vichoko <vicenteoyanedel@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+ts3 = "^1.0.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
